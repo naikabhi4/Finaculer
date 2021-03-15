@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    font-size: small;
+    
+}
+.profile >p{
+    margin-top: 25px;
+    color: black;
+    text-overflow:ellipsis
+}
+.arrowDrop{
+    margin-top: 22px;
+}

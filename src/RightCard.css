@@ -1,0 +1,14 @@
+.bootstrap{
+    margin-top: 30px;
+   background-color: whitesmoke;
+    
+}
+.RightCard{
+    overflow: scroll;
+}
+.RightCard::-webkit-scrollbar {
+    display: none;
+}
+.text{
+    font-size: smaller;
+}

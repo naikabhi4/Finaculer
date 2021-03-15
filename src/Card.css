@@ -1,0 +1,36 @@
+.Cards{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.Card{
+    display: flex;
+    height: 120px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* margin-right: 10px; */
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    color: rgb(51, 51, 119);
+    
+}
+.Card > input{
+    border:none;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.Card >p{
+    flex:1;
+}
+/* .Card  > .input{
+  height: 20%;
+  margin-top: 0;
+} */
+.Card >p1{
+    font-size: smaller;
+    margin-left: 10px;
+}

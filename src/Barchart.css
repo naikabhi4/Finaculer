@@ -1,0 +1,38 @@
+.Barchart{
+    display: flex;
+    flex-direction: column;
+    flex:0.6;
+    width: 1000px;
+    background-color: whitesmoke;
+    height: 100%;
+    margin-right: 100px;
+    overflow: scroll;
+}
+.Barchart::-webkit-scrollbar {
+    display: none;
+}
+.Bardata {
+    width: 60%;
+    height: 50%;
+    position: relative;
+    top:10%;
+    left: 20%;
+    background-color:white;
+
+}
+.Topbar{
+    display: flex;
+    justify-content: flex-end;
+    flex:0.6;
+    max-height: 30px;
+    width: 100%;
+    background-color: white;
+}
+.icon :hover{
+    cursor: pointer;
+    color: black;
+}
+.bottomView{
+    display: flex;
+    flex-wrap: wrap;
+}
